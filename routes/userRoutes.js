@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
       let imageUrl = null;
       
       // Construir URL completa si existe image_url
-      if (trabajador.image_url) {
+      if (trabajador.image_urla) {
         // Asegúrate de que la URL sea accesible desde el cliente
         imageUrl = trabajador.image_url.startsWith('http') 
           ? trabajador.image_url 

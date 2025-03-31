@@ -21,11 +21,11 @@ const HorarioSchema = new mongoose.Schema({
   },
   bono_minutos: {
     type: String,
-    required: false,  // Cambiado a no requerido
+    required: false,  
   },
   bono_monto: {
     type: String,
-    required: false,  // Cambiado a no requerido
+    required: false,  
   },
 }, { collection: 'horarios' });
 
